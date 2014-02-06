@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
-from bootstrapform.meta import VERSION
+from foundationform.meta import VERSION
 
 setup(
-    name='django-bootstrap-form',
+    name='django-foundation-form',
     version=str(VERSION),
-    description="django-bootstrap-form",
+    description="django-foundation-form",
     classifiers=[
         "Programming Language :: Python",
         "Topic :: Software Development :: Libraries :: Python Modules",
@@ -12,9 +12,9 @@ setup(
         "Environment :: Web Environment",
     ],
     keywords='bootstrap,django',
-    author='tzangms',
-    author_email='tzangms@gmail.com',
-    url='http://github.com/tzangms/django-bootstrap-form',
+    author='Vik Paruchuri',
+    author_email='vik.paruchuri@gmail.com',
+    url='https://github.com/VikParuchuri/django-foundation-form',
     license='BSD',
     test_suite='tests',
     install_requires = [
